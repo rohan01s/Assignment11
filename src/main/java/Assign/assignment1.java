@@ -133,7 +133,7 @@ public class assignment1 {
         
 
         System.out.println(" Order placed up to payment page.");
-        // Thread.sleep(3000);
+        Thread.sleep(3000);
         driver.quit();
     }
 }
