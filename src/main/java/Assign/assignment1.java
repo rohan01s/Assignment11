@@ -131,80 +131,9 @@ public class assignment1 {
 
         
         
-//        WebDriverWait wait3 = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        WebElement Completed = wait111.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#checkout-payment-method-load > div > div > div.payment-method._active > div.payment-method-content > div.actions-toolbar > div > button > span")));  //*[@id="shipping-method-buttons-container"]/div/button/span
-//        Completed.click();
 
-        
-//        WebDriverWait wait101 = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-//     // 1. First Name
-//     wait101.until(ExpectedConditions.visibilityOfElementLocated(By.name("First Name "))).sendKeys("Yashm");
-
-//     // 2. Last Name
-//     driver.findElement(By.name("lastname")).sendKeys("Sigh");
-//
-//     // 3. Street Address Line 1
-//     driver.findElement(By.name("street[0]")).sendKeys("123 Test Lane");
-//
-//     // 4. Street Address Line 2 (optional)
-//     driver.findElement(By.name("street[1]")).sendKeys("Suite 5");
-//
-//     // 5. City
-//     driver.findElement(By.name("city")).sendKeys("New York");
-//
-//     // 6. Country
-//     Select countrySelect = new Select(driver.findElement(By.name("country_id")));
-//     countrySelect.selectByVisibleText("United States");
-//
-//     // 7. Wait until State/Province dropdown is enabled
-//     WebElement region = wait101.until(ExpectedConditions.elementToBeClickable(By.name("region_id")));
-//     Select stateSelect = new Select(region);
-//     stateSelect.selectByVisibleText("New York");
-//
-//     // 8. Postal Code
-//     driver.findElement(By.name("postcode")).sendKeys("10001");
-//
-//     // 9. Phone Number
-//     driver.findElement(By.name("Phone Number")).sendKeys("9876543210");
-
-        
-        
-        
-        
-        
-        
-        
-        
-//        Thread.sleep(2000);
-//        
-//        WebDriverWait wait19= new WebDriverWait(driver, Duration.ofSeconds(10));
-//        WebElement company = wait19.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#JTY3AE1")));
-//        company.sendKeys("tweret");
-//        Thread.sleep(2000);
-        
-        //driver.findElement(By.cssSelector("#BVBG4QE")).sendKeys("Test");
-//        driver.findElement(By.cssSelector("#BDGNOQ1")).sendKeys("User");
-//        driver.findElement(By.cssSelector("#IQ7NN6E")).sendKeys("123 Test Street");
-//        driver.findElement(By.cssSelector("#WIOSJ1C")).sendKeys("New York");
-//        driver.findElement(By.cssSelector("#AP73NWQ")).sendKeys("Texas");
-//        driver.findElement(By.cssSelector("#YT0YW32")).sendKeys("10001");
-//        driver.findElement(By.cssSelector("#CFXMMGD")).sendKeys("Iran");
-//        driver.findElement(By.cssSelector("#OS8O0Q2")).sendKeys("1234567890");
-//
-//        Thread.sleep(2000);
-////
-////        // Select shipping method
-//        WebElement shippingMethod = driver.findElement(By.xpath("//input[@value='flatrate_flatrate']"));
-//        shippingMethod.click();
-////
-////        // Click Next
-//        driver.findElement(By.xpath("//button[@data-role='opc-continue']")).click();
-//
         System.out.println(" Order placed up to payment page.");
-//
-////        // Final wait an9d quit
-//       // Thread.sleep(3000);
-//        //driver.quit();
+        Thread.sleep(3000);
+        driver.quit();
     }
 }
